@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(74, 213, 237);
 }
 
 
@@ -11,7 +11,33 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+strokeWeight(200);
+stroke(245, 228, 49);
+  line(184,26,233,258);
+  line(214,259,136,400)
+  //eyes
+fill(255,255,255);
+strokeWeight(4)
+stroke(0,0,0)
+  ellipse(193, 181, 100,100);
+  ellipse(297,181,100,100);
+  ellipse(193, 181,5,5)
+  ellipse(297,181,5,5)
+  //ear
+  fill(245, 228, 49)
+  ellipse(112,250,55,55)
+  //mouth
+  fill(158, 153, 95)
+  ellipse(285,304,150,150)
+  fill(0,0,0,0);
+  arc(280,248,290,150,radians(55),radians(100));
+  //hair
+  line(118,219,117,161);
+  line(117,161,132,211);
+  line(90,168,118,219);
+  //collar
+  fill(255,255,255);
+  triangle(48,323,24,400,255,400);
 
   
 
